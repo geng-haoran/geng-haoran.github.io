@@ -64,8 +64,10 @@
 }
 
 a {
-  color: #e79717e9;
-  text-decoration: none;
+  color: #fe6a00e9;
+  /* text-decoration: blink; */
+  text-shadow: 0px 0px 1px rgb(235, 255, 58);
+  
 }
 b {
   color: #ff0000;
