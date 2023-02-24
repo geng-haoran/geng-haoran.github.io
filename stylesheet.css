@@ -64,15 +64,24 @@
 }
 
 a {
-  color: #fe6a00e9;
+  color: #ff6a00;
   text-decoration: none;
-  text-shadow: 0px 0px 1px rgb(235, 255, 58);
+  text-shadow: 0px 0px 1.3px rgb(238, 254, 56);
   
 }
+
+d {
+  color: #ff6a00;
+  text-decoration: none;
+  text-shadow: 0px 0px 1.3px rgb(238, 254, 56);
+  
+}
+
 b {
-  color: #ff0000;
+  color: #000000;
   text-decoration: none;
 }
+
 c {
   color: #000000;
   text-decoration: none;
@@ -82,13 +91,23 @@ a:hover {
   color: #f09228;
   text-decoration: none;
 }
+d:focus,
+d:hover {
+  color: #f09228;
+  text-decoration: none;
+}
+papertitle:focus,
+papertitle:hover {
+  color: #f02828;
+  text-decoration: none;
+}
 
 body,
 td,
 th,
 tr,
 p,
-a {
+a{
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
   
@@ -119,7 +138,7 @@ heading2 {
 
 papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 700
 }
 
@@ -127,6 +146,12 @@ name {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 28px;
 }
+
+intro,d {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
 
 abs {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
