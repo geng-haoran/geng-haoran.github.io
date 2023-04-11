@@ -11,6 +11,18 @@
 	<link rel="icon" type="image/png" href="images/icon.png">
 </head>
 
+<!-- bib hide -->
+<script type="text/javascript">
+  function hideshow(which){
+  if (!document.getElementById)
+  return
+  if (which.style.display=="block")
+  which.style.display="none"
+  else
+  which.style.display="block"
+  }
+</script>
+  
 <body>
   <!-- self-intro -->
   <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -145,11 +157,31 @@
         /
         <a href="https://pku-epic.github.io/GAPartNet/" target="_blank">Project Page</a>
         /
-        <a href="">Code (Coming Soon)</a>
+        <a href="https://github.com/PKU-EPIC/GAPartNet" target="_blank">Code</a>
         /
         <a href="https://drive.google.com/drive/folders/15ZhD4saW9pbIKT4feUFMXpvIxkIHD6j_" target="_blank">Dataset</a>
         /
         <a href="https://pku-epic.github.io/GAPartNet/images/poster.pdf" target="_blank">Poster</a>
+        /
+        <a href="https://mp.weixin.qq.com/s/elWJx4wMzNtORQUlACOQ6w" target="_blank">Media(CFCS)</a>
+        /
+        <a href="javascript:hideshow(document.getElementById('GApartNet'))">Bibtex</a>
+        
+        <!-- <pre> -->
+          <p id="GApartNet" style="font:1px; display: none">
+          @article{geng2022gapartnet,
+            <br>
+            &emsp;title={GAPartNet: Cross-Category Domain-Generalizable Object Perception and Manipulation via Generalizable and Actionable Parts},
+            <br>
+            &emsp;author={Geng, Haoran and Xu, Helin and Zhao, Chengyang and Xu, Chao and Yi, Li and Huang, Siyuan and Wang, He},
+            <br>
+            &emsp;journal={arXiv preprint arXiv:2211.05272},
+            <br>
+            &emsp;year={2022}
+            <br>
+        }
+      </p >
+      <!-- </pre> -->
         <br>
         <em>CVPR 2023, <b><font color='red'>Highlight</font></b> (Top <b><font color='red'>2.5%</font></b> of submissions) with final reviews of <b><font color='red'>all accepts</font></b> </em>
         <p></p>
@@ -367,6 +399,51 @@
       </td>
     </tr>
 
+    <!-- ReDMan -->
+    <tr>
+      <td style="padding:20px;width:30%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='malle_image'>
+            <br>
+            <img src='images/ReDMan.png' width="190"></div>
+            <br>
+          <img src='images/ReDMan.png' width="190">
+        </div>
+        <script type="text/javascript">
+          function malle_start() {
+            document.getElementById('malle_image').style.opacity = "1";
+          }
+
+          function malle_stop() {
+            document.getElementById('malle_image').style.opacity = "0";
+          }
+          malle_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:70%;vertical-align:middle">
+        <a href="pdf/RedMan.pdf">
+          <papertitle>ReDMan: Reliable Dexterous Manipulation with Safe Reinforcement Learning</papertitle>
+        </a>
+        <br>
+        <a class="a2", href="https://gengyiran.github.io/" target="_blank">Yiran Geng</a>*,
+        <a:focus>Jiaming Ji*</a:focus>, 
+        <a class="a2" href="https://cypypccpy.github.io/" target="_blank">Yuanpei Chen</a>*,
+        <a:focus><strong>Haoran Geng</strong></a:focus>,
+        <a:focus>Fangwei Zhong</a:focus>,
+        <a class="a2" href="https://www.yangyaodong.com/" target="_blank">Yaodong Yang</a><span>&#8224;</span>,
+        <br>
+        <a href="pdf/RedMan.pdf" target="_blank">Paper</a>
+        /
+        <a href="https://github.com/PKU-MARL/ReDMan" target="_blank">Code</a>
+        <br>
+        <em>Under Review</em>
+        <p></p>
+        <p>
+          We introduce ReDMan, an open-source simulation platform that provides a standardized implementation of safe RL algorithms for Reliable Dexterous Manipulation. 
+        </p>
+      </td>
+    </tr>
+
   </tbody></table>
 
   <!-- Before 2022 -->
@@ -448,7 +525,7 @@
           <li>Volunteer: WINE 2020</li>
         </p> -->
         <p>
-          <li>Reviewer: CVPR2023 StruCo3D workshop, ICCV2023</li>
+          <li>Reviewer: CVPR2023 StruCo3D workshop, ICCV2023, NIPS2023</li>
         </p>
         <p>
           <li>One of the leaders of <a href="https://lcpu.club/wiki/index.php?title=%E9%A6%96%E9%A1%B5" target="_blank">Linux Club of Peking University(LCPU)</a></li>
