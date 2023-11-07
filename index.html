@@ -88,7 +88,7 @@
       <td style="padding:0px">
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr style="padding:0px">
-            <td style="padding:2.5%;width:73%;vertical-align:middle">
+            <td style="padding:3%;width:50%;vertical-align:middle">
               <p style="text-align:center">
                 <name>Haoran Geng | 耿浩然</name>
               </p>
@@ -119,10 +119,20 @@
                 <a href="images/WeChat.jpg" target="_blank">WeChat</a>
               </p>
             </td>
-            <td style="padding:3%;width:40%;max-width:40%">
-              <img style="width:80%;max-width:80%" alt="profile photo" src="images/face.jpg" class="hoverZoomLink">
-              <a href="https://hits.seeyoufarm.com" target="_blank"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgeng-haoran.github.io&count_bg=%23FF8400&title_bg=%23545353&icon=tableau.svg&icon_color=%23F3F209&title=hits&edge_flat=false"/></a>
+            <td style="padding:0%; width:21%; max-width:21%;"> <!-- move the photo a bit left -->
+              <br>
+              <!-- <br> -->
+              <img style="width:100%; max-width:100%;" alt="profile photo" src="images/face5.jpg" class="hoverZoomLink">
+              <a href="https://hits.seeyoufarm.com" target="_blank">
+                <img 
+                  src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgeng-haoran.github.io&count_bg=%23FF8400&title_bg=%23545353&icon=tableau.svg&icon_color=%23F3F209&title=hits&edge_flat=false" 
+                  style="display: block; margin-left: auto; margin-right: auto; width: 55%;"/>
+              </a>
             </td>
+            <!-- <td style="padding:5%;width:37%;max-width:37%"> 
+              <img style="width:100%;max-width:100%" alt="profile photo" src="images/face3.jpg" class="hoverZoomLink">
+              <a href="https://hits.seeyoufarm.com" target="_blank"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgeng-haoran.github.io&count_bg=%23FF8400&title_bg=%23545353&icon=tableau.svg&icon_color=%23F3F209&title=hits&edge_flat=false"/></a>
+            </td> -->
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -132,7 +142,7 @@
   <!-- News -->
   <table style="width:90%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           
-    <br>
+    <!-- <br> -->
     <heading>News</heading>
     <br>
     <td style="padding:0px;width:100%;vertical-align:middle">
@@ -168,11 +178,140 @@
     with a complex real-world environment.
     </p>
 
+    <!-- SAGE -->
+    <tr>
+      <td style="padding:20px;width:30%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='malle_image'>
+            <!-- <br> -->
+            <img src='images/sage.jpg' width="200"></div>
+          <!-- <br> -->
+          <img src='images/sage.jpg' width="200">
+        </div>
+        <script type="text/javascript">
+          function malle_start() {
+            document.getElementById('malle_image').style.opacity = "1";
+          }
+          function malle_stop() {
+            document.getElementById('malle_image').style.opacity = "0";
+          }
+          malle_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:70%;vertical-align:middle">
+        <a href="https://geometry.stanford.edu/projects/sage/" target="_blank">
+          <papertitle><br>SAGE🌿: Bridging Semantic and Actionable Parts for Generalizable Articulated-Object Manipulation under Language Instructions</papertitle>
+        </a>
+      <br>
+        <a:focus><strong>Haoran Geng*</strong></a:focus>,
+        <a class="a2" href="http://wei.songl.in/" target="_blank">Songlin Wei</a>*,
+        <a class="a2" href="https://cs.stanford.edu/~congyue/" target="_blank">Congyue Deng</a>,
+        <a class="a2" href="https://cs.stanford.edu/people/bshen88/" target="_blank">Bokui Shen</a>,
+        <a class="a2" href="https://hughw19.github.io/" target="_blank">He Wang</a><span>&#8224;</span>,
+        <a class="a2" href="https://geometry.stanford.edu/member/guibas/index.html" target="_blank">Leonidas Guibas</a><span>&#8224;</span>
+        <br>
+        <!-- <a href="https://arxiv.org/abs/2304.00464" target="_blank">ArXiv</a>
+        / -->
+        <a href="https://geometry.stanford.edu/projects/sage/" target="_blank">Project Page</a>
+        /
+        <!-- <a href="https://github.com/PKU-EPIC/UniDexGrasp2">Code</a>
+        / -->
+        <a href="https://www.youtube.com/watch?v=DnFmsNzzbWY">Video</a>
+        <!-- /
+        <a href="javascript:hideshow(document.getElementById('unidexgrasp++'))">Bibtex</a>
+        <p id="unidexgrasp++" style="font:1px; display: none">
+          @article{wan2023unidexgrasp++,
+            <br>
+            &emsp;title={UniDexGrasp++: Improving Dexterous Grasping Policy Learning via Geometry-aware Curriculum and Iterative Generalist-Specialist Learning},
+            <br>
+            &emsp;author={Wan, Weikang and Geng, Haoran and Liu, Yun and Shan, Zikang and Yang, Yaodong and Yi, Li and Wang, He},
+            <br>
+            &emsp;journal={arXiv preprint arXiv:2304.00464},
+            <br>
+            &emsp;year={2023}
+          }
+        </p> -->
+        <br>
+        <em><strong>Under Review</strong></em>
+        <p></p>
+        <p> We present SAGE, a framework bridging the understanding of semantic and actionable parts 
+          for generalizable manipulation of articulated objects using Large Language Models(LLMs)
+          and Visual-Language Models(VLMs).</p>
+      </td>
+    </tr>
+
+    <!-- MAKE A DONUT -->
+    <tr>
+      <td style="padding:20px;width:30%;vertical-align:middle">
+        <!-- <br>
+        <br> -->
+        <div class="one">
+          <div class="two" id='malle_image'>
+            <br>
+            <img src='images/donut.jpg' width="200"></div>
+          <br>
+          <img src='images/donut.jpg' width="200">
+        </div>
+        <script type="text/javascript">
+          function malle_start() {
+            document.getElementById('malle_image').style.opacity = "1";
+          }
+          function malle_stop() {
+            document.getElementById('malle_image').style.opacity = "0";
+          }
+          malle_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:70%;vertical-align:middle">
+        <a href="" target="_blank">
+          <papertitle>Make a Donut: Language-guided Hierarchical EMD-Space Planning for Zero-shot Deformable Object Manipulation
+          </papertitle>
+        </a>
+        <br>
+        <a class="a2" href="https://qq456cvb.github.io/" target="_blank">Yang You</a>,
+        <a class="a2" href="https://cs.stanford.edu/people/bshen88/" target="_blank">Bokui Shen</a>,
+        <a class="a2" href="https://cs.stanford.edu/~congyue/" target="_blank">Congyue Deng</a>,
+        <a:focus><strong>Haoran Geng</strong></a:focus>,
+        <a class="a2" href="https://hughw19.github.io/" target="_blank">He Wang</a><span>&#8224;</span>,
+        <a class="a2" href="https://geometry.stanford.edu/member/guibas/index.html" target="_blank">Leonidas Guibas</a><span>&#8224;</span>
+        <br>
+        <!-- <br> -->
+        <a href="https://arxiv.org/abs/2311.02787" target="_blank">ArXiv</a>
+        /
+        <a href="" target="_blank">Project Page</a>
+        <!-- /
+        <a href="https://github.com/PKU-EPIC/UniDexGrasp2">Code</a> -->
+        <!-- /
+        <a href="https://mp.weixin.qq.com/s/iSTOB2OjJeJYfvTUQ55YNw">Media(CFCS)</a>
+        /
+        <a href="javascript:hideshow(document.getElementById('unidexgrasp++'))">Bibtex</a>
+        <p id="unidexgrasp++" style="font:1px; display: none">
+          @article{wan2023unidexgrasp++,
+            <br>
+            &emsp;title={UniDexGrasp++: Improving Dexterous Grasping Policy Learning via Geometry-aware Curriculum and Iterative Generalist-Specialist Learning},
+            <br>
+            &emsp;author={Wan, Weikang and Geng, Haoran and Liu, Yun and Shan, Zikang and Yang, Yaodong and Yi, Li and Wang, He},
+            <br>
+            &emsp;journal={arXiv preprint arXiv:2304.00464},
+            <br>
+            &emsp;year={2023}
+          }
+        </p> -->
+        <br>
+        <em><strong>Under Review</strong></em>
+        <!-- <br> -->
+        <!-- <em><strong>RSS 2023 @ Learning Dexterous Manipulation, <b><font color='red'>Spotlight Presentation</font></b></strong></em> -->
+        <p></p>
+        <p> In this work, we introduce a demonstration-free hierarchical planning approach capable of tackling intricate
+          long-horizon tasks without necessitating any training</p>
+      </td>
+    </tr>
+
     <!-- UniDexGrasp++ -->
     <tr>
       <td style="padding:20px;width:30%;vertical-align:middle">
-        <br>
-        <br>
+        <!-- <br>
+        <br> -->
         <div class="one">
           <div class="two" id='malle_image'>
             <br>
@@ -184,7 +323,6 @@
           function malle_start() {
             document.getElementById('malle_image').style.opacity = "1";
           }
-
           function malle_stop() {
             document.getElementById('malle_image').style.opacity = "0";
           }
@@ -192,8 +330,8 @@
         </script>
       </td>
       <td style="padding:20px;width:70%;vertical-align:middle">
-        <a href="" target="_blank">
-          <papertitle><br>UniDexGrasp++: Improving Dexterous Grasping Policy Learning via Geometry-aware Curriculum and Iterative Generalist-Specialist Learning</papertitle>
+        <a href="https://pku-epic.github.io/UniDexGrasp++/" target="_blank">
+          <papertitle>UniDexGrasp++: Improving Dexterous Grasping Policy Learning via Geometry-aware Curriculum and Iterative Generalist-Specialist Learning</papertitle>
         </a>
         <br>
         <a class="a2" href="https://wkwan7.github.io/" target="_blank">Weikang Wan</a>*,
@@ -261,7 +399,7 @@
      </td>
      <td style="padding:20px;width:70%;vertical-align:middle">
        <a href="https://arnold-benchmark.github.io/" target="_blank">
-         <papertitle><br>ARNOLD: A Benchmark for Language-Grounded Task Learning With Continuous States in Realistic 3D Scenes</papertitle>
+         <papertitle>ARNOLD: A Benchmark for Language-Grounded Task Learning With Continuous States in Realistic 3D Scenes</papertitle>
        </a>
        <br>
        <a class="a2" href="https://nikepupu.github.io/" target="_blank">Ran Gong</a>*,
