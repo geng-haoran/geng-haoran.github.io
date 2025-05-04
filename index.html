@@ -292,6 +292,71 @@
       </td>
     </tr>
 
+
+    <!-- PhysPart -->
+    <tr onmouseout="malle_stop()" onmouseover="malle_start()"  bgcolor="#ffffdc">
+      <td style="padding:20px;width:30%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='malle_image'>
+            <!-- <br> -->
+            <img src='images/icra25_physpart.gif' width="220"></div>
+          <!-- <br> -->
+          <img src='images/icra25_physpart.gif' width="220">
+        </div>
+        <script type="text/javascript">
+          function malle_start() {
+            document.getElementById('malle_image').style.opacity = "1";
+          }
+          function malle_stop() {
+            document.getElementById('malle_image').style.opacity = "0";
+          }
+          malle_stop()
+    </script>
+      </td>
+      <td style="padding:20px;width:70%;vertical-align:middle">
+        <a href="https://red-fairy.github.io/physpart-webpage/" target="_blank">
+          <papertitle>PhysPart: Physically Plausible Part Completion for Interactable Objects
+          </papertitle>
+        </a>
+        <br>
+        <a class="a2" href="https://red-fairy.github.io/" target="_blank">Rundong Luo</a>*,
+        <a:focus><strong>Haoran Geng*</strong></a:focus>,  
+        <a class="a2" href="https://cs.stanford.edu/~congyue/" target="_blank">Congyue Deng</a>,
+        <a class="a2" href="https://xiaoyao-li.github.io/" target="_blank">Puhao Li</a>,
+        <a class="a2" href="https://silvester.wang/" target="_blank">Zan Wang</a>,
+        <a class="a2" href="https://buzz-beater.github.io/" target="_blank">Baoxiong Jia</a>,
+        <a class="a2" href="https://geometry.stanford.edu/?member=guibas" target="_blank">Leonidas Guibas</a>,
+        <a class="a2" href="https://siyuanhuang.com/" target="_blank">Siyuan Huang</a><span>&#8224;</span>
+        <br>
+        (*equal contribution)
+        <br>
+        <a href="https://arxiv.org/abs/2408.13724">Paper</a> /
+        <a href="https://red-fairy.github.io/physpart-webpage/">Project</a> / 
+        <a href="https://github.com/yxKryptonite/RAM_code">Code</a> /
+        <a href="javascript:hideshow(document.getElementById('ram'))">Bibtex</a>
+        <p id="ram" style="font:1px; display: none">
+          @article{Physpart,
+            <br>
+            title = {PhysPart: Physically Plausible Part Completion for Interactable Objects},
+            <br>
+            author = {Luo*, Rundong and Geng*, Haoran and Deng, Congyue and Li, Puhao and Wang, Zan and Jia, Baoxiong and Guidbas, Leonidas and Huang, Siyuan},
+            <br>
+            journal = {International Conference on Robotics and Automation (ICRA)},
+            <br>
+            year = {2025},
+            <br>
+            url = {https://arxiv.org/abs/2408.13724},
+            <br>
+          }
+        </p>
+        <br>
+        <em><strong>ICRA 2025, <b><font color='red'>Oral Presentation</font></b></strong></em>
+        <p></p>
+        <p> PhysPart proposes a diffusion-based part generation model that utilizes geometric conditioning through classifier-free guidance and formulates physical constraints as a set of stability and mobility losses to guide the sampling process.
+        </p>
+      </td>
+    </tr>
+
     <!-- RAM -->
     <tr onmouseout="malle_stop()" onmouseover="malle_start()"  bgcolor="#ffffdc">
       <td style="padding:20px;width:30%;vertical-align:middle">
