@@ -95,7 +95,10 @@
               <p style="text-align: justify">
               <intro>
                 I am a Ph.D. student at <a href="https://bair.berkeley.edu/" target="_blank"><d>Berkeley AI Research (BAIR)</d></a>, 
-                advised by Prof. <a href="https://people.eecs.berkeley.edu/~malik/" target="_blank"><d>Jitendra Malik</d></a> and Prof. <a href="https://people.eecs.berkeley.edu/~pabbeel/" target="_blank"><d>Pieter Abbeel</d></a>.
+                advised by 
+                Prof. <a href="https://people.eecs.berkeley.edu/~pabbeel/" target="_blank"><d>Pieter Abbeel</d></a>
+                and 
+                Prof. <a href="https://people.eecs.berkeley.edu/~malik/" target="_blank"><d>Jitendra Malik</d></a>.
                  <!-- <a href="https://www.berkeley.edu/" target="_blank"><d>UC Berkeley</d></a>.  -->
                  I also work closely with 
                  Prof. <a href="https://people.eecs.berkeley.edu/~efros/" target="_blank"><d>Alexei (Alyosha) Efros</d></a>, 
@@ -254,22 +257,6 @@
             <br>
             url={https://arxiv.org/abs/2506.02618}, 
       }
-          @misc{geng2025rodriginesnetworkforlearningrobotactions,
-            <br>
-            title={RAM: Retrieval-Based Affordance Transfer for Generalizable Zero-Shot Robotic Manipulation}, 
-            <br>
-            author={Yuxuan Kuang and Junjie Ye and Haoran Geng and Jiageng Mao and Congyue Deng and Leonidas Guibas and He Wang and Yue Wang},
-            year={2024},
-            <br>
-            eprint={2407.04689},
-            <br>
-            archivePrefix={arXiv},
-            <br>
-            primaryClass={cs.RO},
-            <br>
-            url={https://arxiv.org/abs/2407.04689}, 
-            <br>
-      }
         </p>
         <br>
         <em><strong>ArXiv preprint</strong></em>
@@ -279,6 +266,69 @@
       </td>
     </tr>
 
+
+    <!-- ViTacFormer -->
+    <tr onmouseout="malle_stop()" onmouseover="malle_start()"  bgcolor="#ffffdc">
+      <td style="padding:40px;width:30%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='malle_image'>
+            <!-- <br> -->
+            <img src='images/vitacformer.png' width="180"></div>
+          <!-- <br> -->
+          <img src='images/vitacformer.png' width="180">
+        </div>
+        <script type="text/javascript">
+          function malle_start() {
+            document.getElementById('malle_image').style.opacity = "1";
+          }
+          function malle_stop() {
+            document.getElementById('malle_image').style.opacity = "0";
+          }
+          malle_stop()
+    </script>
+      </td>
+      <td style="padding:20px;width:70%;vertical-align:middle">
+        <a href="https://arxiv.org/abs/2506.15953" target="_blank">
+          <papertitle>ViTacFormer: Learning Cross-Modal Representation for Visuo-Tactile Dexterous Manipulation
+          </papertitle>
+        </a>
+        <br>
+        <a class="a2" href="https://liangheng121.github.io/" target="_blank">Liang Heng*</a>,
+        <a:focus><strong>Haoran Geng*†</strong></a:focus>,
+        <a class="a2" href="https://openreview.net/profile?id=~Kaifeng_Zhang1" target="_blank">Kaifeng Zhang</a>,
+        <a class="a2" href="https://people.eecs.berkeley.edu/~pabbeel/" target="_blank">Pieter Abbeel</a>,
+        <a class="a2" href="https://people.eecs.berkeley.edu/~malik/" target="_blank">Jitendra Malik</a>
+        <br>
+        (* equal contribution, † project lead)
+        <br>
+        <a href="https://arxiv.org/abs/2506.15953">Paper</a> /
+        <a href="https://arxiv.org/abs/2506.15953">Project</a> / 
+        <a href="javascript:hideshow(document.getElementById('vitacformer'))">Bibtex</a>
+        <p id="vitacformer" style="font:1px; display: none">
+          @misc{heng2025vitacformerlearningcrossmodalrepresentation,
+            <br>
+            title={ViTacFormer: Learning Cross-Modal Representation for Visuo-Tactile Dexterous Manipulation}, 
+            <br>
+            author={Liang Heng and Haoran Geng and Kaifeng Zhang and Pieter Abbeel and Jitendra Malik},
+            <br>
+            year={2025},
+            <br>
+            eprint={2506.15953},
+            <br>
+            archivePrefix={arXiv},
+            <br>
+            primaryClass={cs.RO},
+            <br>
+            url={https://arxiv.org/abs/2506.15953}, 
+            <br>
+      }
+        </p>
+        <br>
+        <em><strong>ArXiv preprint</strong></em>
+        <p></p>
+        <p> We present ViTacFormer, a representation-learning approach that couples a cross-attention encoder to fuse high-resolution vision and touch with an autoregressive tactile prediction head that anticipates future contact signals. </p>
+      </td>
+    </tr>
 
     <!-- SkillBlender -->
     <tr onmouseout="malle_stop()" onmouseover="malle_start()"  bgcolor="#ffffdc">
@@ -432,7 +482,7 @@
         </a>
        
           <br>
-          <a:focus><strong>Haoran Geng*</strong></a:focus>,
+          <a:focus><strong>Haoran Geng*†</strong></a:focus>,
           <a class="a2" href="https://fisher-wang.github.io/" target="_blank">Feishi Wang</a>*,
           <a class="a2" href="https://songlin.github.io/" target="_blank">Songlin Wei</a>*,
           <a class="a2" href="https://yuyangli.com/" target="_blank">Yuyang Li</a>*,
@@ -541,8 +591,8 @@
         <a href="https://arxiv.org/abs/2408.13724">Paper</a> /
         <a href="https://red-fairy.github.io/physpart-webpage/">Project</a> / 
         <a href="https://github.com/yxKryptonite/RAM_code">Code</a> /
-        <a href="javascript:hideshow(document.getElementById('ram'))">Bibtex</a>
-        <p id="ram" style="font:1px; display: none">
+        <a href="javascript:hideshow(document.getElementById('physpart'))">Bibtex</a>
+        <p id="physpart" style="font:1px; display: none">
           @article{Physpart,
             <br>
             title = {PhysPart: Physically Plausible Part Completion for Interactable Objects},
