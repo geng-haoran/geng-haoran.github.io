@@ -204,7 +204,7 @@
 
     <!-- Large Video Planner -->
     <tr onmouseout="lvp_stop()" onmouseover="lvp_start()"  bgcolor="#ffffdc">
-      <td style="padding:40px;width:30%;vertical-align:middle">
+      <td style="padding:20px;width:30%;vertical-align:middle">
         <div class="one">
           <div class="two" id='lvp_image'>
             <!-- <br> -->
@@ -212,6 +212,15 @@
           <!-- <br> -->
           <img src='images/LVP_demo.gif' width="200">
         </div>
+        <script type="text/javascript">
+          function lvp_start() {
+            document.getElementById('lvp_image').style.opacity = "1";
+          }
+          function lvp_stop() {
+            document.getElementById('lvp_image').style.opacity = "0";
+          }
+          lvp_stop()
+    </script>
       </td>
       <td style="padding:20px;width:70%;vertical-align:middle">
         <a href="https://www.boyuan.space/large-video-planner/" target="_blank">
@@ -267,7 +276,7 @@
 
     <!-- RodriNet -->
     <tr onmouseout="malle_stop()" onmouseover="malle_start()"  bgcolor="#ffffdc">
-      <td style="padding:40px;width:30%;vertical-align:middle">
+      <td style="padding:5px 20px 20px 20px;width:30%;vertical-align:top">
         <div class="one">
           <div class="two" id='malle_image'>
             <!-- <br> -->
@@ -333,7 +342,7 @@
 
     <!-- ViTacFormer -->
     <tr onmouseout="malle_stop()" onmouseover="malle_start()"  bgcolor="#ffffdc">
-      <td style="padding:40px;width:30%;vertical-align:middle">
+      <td style="padding:20px;width:30%;vertical-align:middle">
         <div class="one">
           <div class="two" id='malle_image'>
             <!-- <br> -->
@@ -396,7 +405,7 @@
 
     <!-- SkillBlender -->
     <tr onmouseout="malle_stop()" onmouseover="malle_start()"  bgcolor="#ffffdc">
-      <td style="padding:40px;width:30%;vertical-align:middle">
+      <td style="padding:20px;width:30%;vertical-align:middle">
         <div class="one">
           <div class="two" id='malle_image'>
             <!-- <br> -->
@@ -458,7 +467,7 @@
 
     <!-- FastTD3 -->
     <tr onmouseout="malle_stop()" onmouseover="malle_start()"  bgcolor="#ffffdc">
-      <td style="padding:40px;width:30%;vertical-align:middle">
+      <td style="padding:20px;width:30%;vertical-align:middle">
         <div class="one">
           <div class="two" id='malle_image'>
             <!-- <br> -->
